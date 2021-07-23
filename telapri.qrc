@@ -1,0 +1,23 @@
+<RCC>
+  <qresource prefix="telapri">
+    <file>icones/png-transparent-hamburger-button-computer-icons-menu-math-symbol-share-icon-computer-icons-идентичный.png</file>
+    <file>icones/png-clipart-contact-list-information-address-book-computer-icons-symbol-adress-miscellaneous-text-thumbnail.png</file>
+    <file>icones/png-transparent-computer-icons-font-awesome-password-user-font-others-typeface-computer-icons-symbol.png</file>
+    <file>icones/download.png</file>
+    <file>icones/png-clipart-computer-icons-google-search-icon-design-magnifying-glass-cartoon-logo-android.png</file>
+    <file>icones/download.jpeg</file>
+    <file>icones/images.jpeg</file>
+    <file>icones/44590.png</file>
+    <file>icones/png-transparent-computer-icons-check-mark-presentation-symbol-check-list-miscellaneous-angle-text.png</file>
+    <file>icones/png-clipart-computer-icons-encapsulated-postscript-delete-button-miscellaneous-text.png</file>
+    <file>icones/png-transparent-computer-icons-icon-design-symbol-font-awesome-delete-button-miscellaneous-logo-internet.png</file>
+    <file>icones/png-clipart-computer-icons-password-user-window-furniture-window-thumbnail.png</file>
+    <file>icones/png-transparent-email-computer-icons-symbol-electronic-mailing-list-envelope-mail-miscellaneous-angle-web-design.png</file>
+    <file>icones/png-clipart-blue-arrows-illustration-computer-icons-button-blog-refresh-drawing-miscellaneous-blue.png</file>
+    <file>icones/png-clipart-delta-computers-rentals-computer-icons-user-icon-entrepreneurship-head-desktop-wallpaper.png</file>
+    <file>icones/kisspng-computer-icons-icon-design-list-vector-5adb651e971034.0341446215243277106188.jpg</file>
+    <file>icones/png-clipart-computer-icons-login-user-system-administrator-admin-desktop-wallpaper-megaphone.png</file>
+    <file>icones/kisspng-computer-icons-scalable-vector-graphics-apple-icon-edit-png-icon-blue-pencil-5ab065d3a79673.8929716715215098436865.jpg</file>
+    <file>icones/png-transparent-computer-icons-user-icon-design-patient-miscellaneous-balance-symbol.png</file>
+  </qresource>
+</RCC>

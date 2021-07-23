@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>744</width>
+    <height>537</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>-1</y>
+      <width>731</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(211, 215, 207);
+border-right-color: rgb(0, 0, 0);
+border-color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>80</y>
+      <width>291</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; font-style:italic; color:#cc0000;&quot;&gt;Pedidos Cadastrados recentimente&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>100</y>
+      <width>721</width>
+      <height>401</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>Funcionario</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Cliente</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Cpf</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Endereço</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Telefone</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Pedido</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Preço </string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QPushButton" name="editar">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>40</y>
+      <width>89</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(54, 200, 138);
+border-bottom-color: rgb(0, 0, 0);
+border-right-color: rgb(0, 0, 0);
+border-top-color: rgb(0, 0, 0);
+border-bottom-color: rgb(0, 0, 0);
+border-right-color: rgb(0, 0, 0);
+border-radius: 10px;
+border-style: outset;
+border-width: 2px;</string>
+    </property>
+    <property name="text">
+     <string>Editar</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="sair">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>40</y>
+      <width>111</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(237, 212, 0);
+border-bottom-color: rgb(0, 0, 0);
+border-right-color: rgb(0, 0, 0);
+border-top-color: rgb(0, 0, 0);
+border-bottom-color: rgb(0, 0, 0);
+border-right-color: rgb(0, 0, 0);
+border-radius: 10px;
+border-style: outset;
+border-width: 2px;</string>
+    </property>
+    <property name="text">
+     <string>Sair</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="excluir">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>40</y>
+      <width>89</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(204, 0, 0);
+color: rgb(0, 0, 0);;
+border-bottom-color: rgb(0, 0, 0);
+border-right-color: rgb(0, 0, 0);
+border-top-color: rgb(0, 0, 0);
+border-bottom-color: rgb(0, 0, 0);
+border-right-color: rgb(0, 0, 0);
+border-radius: 10px;\nborder-style: outset;
+border-width: 2px;</string>
+    </property>
+    <property name="text">
+     <string>Excluir</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionCadastrar">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/telapri/icones/png-transparent-computer-icons-user-icon-design-patient-miscellaneous-balance-symbol.png</normaloff>:/telapri/icones/png-transparent-computer-icons-user-icon-design-patient-miscellaneous-balance-symbol.png</iconset>
+   </property>
+   <property name="text">
+    <string>Cadastrar</string>
+   </property>
+   <property name="toolTip">
+    <string>Cadastrar pedidos</string>
+   </property>
+  </action>
+  <action name="actionEditar">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/telapri/icones/kisspng-computer-icons-scalable-vector-graphics-apple-icon-edit-png-icon-blue-pencil-5ab065d3a79673.8929716715215098436865.jpg</normaloff>:/telapri/icones/kisspng-computer-icons-scalable-vector-graphics-apple-icon-edit-png-icon-blue-pencil-5ab065d3a79673.8929716715215098436865.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>Editar</string>
+   </property>
+   <property name="toolTip">
+    <string>Editar pedido</string>
+   </property>
+  </action>
+  <action name="actionprocurar">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/telapri/icones/png-clipart-computer-icons-google-search-icon-design-magnifying-glass-cartoon-logo-android.png</normaloff>:/telapri/icones/png-clipart-computer-icons-google-search-icon-design-magnifying-glass-cartoon-logo-android.png</iconset>
+   </property>
+   <property name="text">
+    <string>Procurar</string>
+   </property>
+   <property name="toolTip">
+    <string>Procurar pedido</string>
+   </property>
+  </action>
+  <action name="actionExcluir">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/telapri/icones/png-clipart-computer-icons-encapsulated-postscript-delete-button-miscellaneous-text.png</normaloff>:/telapri/icones/png-clipart-computer-icons-encapsulated-postscript-delete-button-miscellaneous-text.png</iconset>
+   </property>
+   <property name="text">
+    <string>Excluir</string>
+   </property>
+   <property name="toolTip">
+    <string>Excluir pedido</string>
+   </property>
+  </action>
+  <action name="actionReflash">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/telapri/icones/images.jpeg</normaloff>:/telapri/icones/images.jpeg</iconset>
+   </property>
+   <property name="text">
+    <string>Reflash</string>
+   </property>
+   <property name="toolTip">
+    <string>Atualizar</string>
+   </property>
+   <property name="shortcut">
+    <string>F5</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="telapri.qrc"/>
+ </resources>
+ <connections/>
+</ui>
